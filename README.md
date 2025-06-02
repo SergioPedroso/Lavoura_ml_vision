@@ -16,7 +16,6 @@ Desenvolver um modelo capaz de classificar automaticamente doenças em folhas de
 - TensorFlow / Keras
 - OpenCV
 - NumPy, Matplotlib, Scikit-learn
-- Streamlit (opcional)
 
 ---
 
