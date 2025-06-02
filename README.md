@@ -1,32 +1,31 @@
-# 🌿 Classificação de Doenças em Plantas com Visão Computacional
+# Classificação de Doenças em Plantas com Visão Computacional
 
 Este projeto aplica técnicas de Visão Computacional e Deep Learning para identificar doenças em plantas agrícolas a partir de imagens. Utilizando modelos pré-treinados e aumento de dados, a solução atinge **92% de acurácia** na classificação de 15 diferentes classes de condições em lavouras de tomate, batata e pimentão.
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Desenvolver um modelo capaz de classificar automaticamente doenças em folhas de plantas, auxiliando produtores no monitoramento preventivo de lavouras com base em imagens.
 
 ---
 
-## 🧠 Tecnologias e Bibliotecas
+## Tecnologias e Bibliotecas
 
 - Python 3.10+
 - TensorFlow / Keras
 - OpenCV
 - NumPy, Matplotlib, Scikit-learn
-- Streamlit (opcional)
 
 ---
 
-## 🖼️ Dataset
+## 🖼Dataset
 
 Foi usado o [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease), que contém milhares de imagens rotuladas de folhas de plantas em diferentes estágios de saúde ou infecção.
 
 ---
 
-## ⚙️ Arquitetura do Modelo
+## ⚙Arquitetura do Modelo
 
 - **Base:** MobileNetV2 (pré-treinada no ImageNet)
 - **Camadas adicionais:**
@@ -37,7 +36,7 @@ Foi usado o [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plant
 
 ---
 
-## 📊 Resultados
+## Resultados
 
 - **Acurácia geral:** 92%
 - **F1-score macro:** 91%
@@ -66,14 +65,6 @@ Tomato_Spider_mites_Two_spotted_spider_mite       0.84      0.93      0.88      
                                    accuracy                           0.92      4328
                                   macro avg       0.91      0.91      0.91      4328
                                weighted avg       0.92      0.92      0.92      4328
-
-
-## ▶️ Como Executar
-
-1. Clone este repositório:
-```bash
-git clone https://github.com/seu-usuario/lavoura-vision.git
-cd lavoura-vision
 
 
 
