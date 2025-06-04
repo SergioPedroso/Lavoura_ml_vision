@@ -6,7 +6,7 @@ Este projeto aplica técnicas de Visão Computacional e Deep Learning para ident
 
 ## Objetivo
 
-Desenvolver um modelo capaz de classificar automaticamente doenças em folhas de plantas, auxiliando produtores no monitoramento preventivo de lavouras com base em imagens.
+Desenvolver um modelo capaz de classificar automaticamente doenças em folhas de plantas, auxiliando no monitoramento preventivo de lavouras com base em imagens.
 
 ---
 
@@ -15,13 +15,13 @@ Desenvolver um modelo capaz de classificar automaticamente doenças em folhas de
 - Python 3.10+
 - TensorFlow / Keras
 - OpenCV
-- NumPy, Matplotlib, Scikit-learn
+- NumPy, Matplotlib, Scikit-learn, Pandas
 
 ---
 
 ## Dataset
 
-Foi usado o [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease), que contém milhares de imagens rotuladas de folhas de plantas em diferentes estágios de saúde ou infecção.
+Foi usado o [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease), que contém imagens rotuladas de folhas de várias plantas em condições saúde ou infecção diferentes.
 
 ---
 
